@@ -1,0 +1,35 @@
+{
+  "display-name": "Homebridge Snooz",
+  "name": "homebridge-snooz",
+  "version": "0.1.0",
+  "description": "Homebridge plugin for Snooz white noise generator",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Jake Holland",
+  "keywords": [
+    "homebridge",
+    "homebridge-plugin",
+    "homebridge-snooz",
+    "bluetooth",
+    "gatttool",
+    "snooz",
+    "white noise generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jakeholland/homebridge-snooz.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jakeholland/homebridge-snooz/issues"
+  },
+  "engines": {
+    "node": ">=10",
+    "homebridge": ">=1.0.0"
+  },
+  "dependencies": {
+    "node-persist": ">=3.0.0"
+  },
+  "scripts": {
+    "test": ""
+  }
+}
